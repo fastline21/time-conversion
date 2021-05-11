@@ -1,0 +1,23 @@
+{
+  "name": "time-conversion",
+  "version": "1.0.0",
+  "description": "Set local time and convert into different timezone.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon -r dotenv/config server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastline21/time-conversion.git"
+  },
+  "keywords": [],
+  "author": "Joshwa Facistol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fastline21/time-conversion/issues"
+  },
+  "homepage": "https://github.com/fastline21/time-conversion#readme"
+}
